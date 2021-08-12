@@ -6,9 +6,9 @@ from bert4keras.snippets import AutoRegressiveDecoder
 from bert4keras.tokenizers import Tokenizer
 from tokenizer import T5PegasusTokenizer
 
-config_path = 'D:\\BaiduNetdiskDownload\\chinese_t5_pegasus_base\\chinese_t5_pegasus_base\\config.json'
-checkpoint_path = 'D:\\BaiduNetdiskDownload\\chinese_t5_pegasus_base\\chinese_t5_pegasus_base\\model.ckpt'
-dict_path = 'D:\\BaiduNetdiskDownload\\chinese_t5_pegasus_base\\chinese_t5_pegasus_base\\vocab.txt'
+config_path = 'E:\\预训练模型\\chinese_t5_pegasus_base\\config.json'
+checkpoint_path = 'E:\\预训练模型\\chinese_t5_pegasus_base\\model.ckpt'
+dict_path = 'E:\\预训练模型\\chinese_t5_pegasus_base\\vocab.txt'
 torch_model = './'
 
 if __name__ == "__main__":

@@ -7,6 +7,7 @@ from torch._six import container_abcs, string_classes, int_classes
 import torch
 from torch.utils.data import DataLoader, Dataset
 import re
+import numpy as np
 
 rouge = rouge.Rouge()
 
